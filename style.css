@@ -44,4 +44,5 @@ section aside {
 section footer {
     grid-column: 2;
     grid-row: 3;
+	color: #b7864e;
 }
