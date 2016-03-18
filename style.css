@@ -18,33 +18,34 @@ section {
 }
 
 section header {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
 	text-align: center;
 	font-size: 20pt;
 	color: #b7864e;
+	margin-bottom: 40px;
 }
 
 section nav {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
 	color: #b7864e;
+	margin-left: 120px;
 }
 
 section article {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-section aside {
-    grid-column: 3;
-    grid-row: 2;
-}
-                        
+    grid-column: 1;
+    grid-row: 1;
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}              
 section footer {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 1;
 	color: #b7864e;
+	margin-left: 120px;
 }
 .myProfile {
 	width: 100;
